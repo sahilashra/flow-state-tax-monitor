@@ -1,0 +1,23 @@
+{
+  "fitbit": {
+    "access_token": "YOUR_FITBIT_ACCESS_TOKEN_HERE",
+    "refresh_token": "YOUR_FITBIT_REFRESH_TOKEN_HERE",
+    "client_id": "YOUR_FITBIT_CLIENT_ID",
+    "client_secret": "YOUR_FITBIT_CLIENT_SECRET"
+  },
+  "oura": {
+    "access_token": "YOUR_OURA_PERSONAL_ACCESS_TOKEN_HERE"
+  },
+  "garmin": {
+    "consumer_key": "YOUR_GARMIN_CONSUMER_KEY",
+    "consumer_secret": "YOUR_GARMIN_CONSUMER_SECRET",
+    "access_token": "YOUR_GARMIN_ACCESS_TOKEN",
+    "access_token_secret": "YOUR_GARMIN_ACCESS_TOKEN_SECRET"
+  },
+  "apple_healthkit": {
+    "note": "Apple HealthKit requires macOS/iOS and system permissions. No API tokens needed."
+  },
+  "simulated": {
+    "note": "Simulated data requires no configuration."
+  }
+}

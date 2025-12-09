@@ -1,0 +1,17 @@
+[Unit]
+Description=Flow State Tax Monitor - Data Collector Orchestrator
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_USERNAME
+WorkingDirectory=/path/to/backend
+Environment="PATH=/path/to/venv/bin:/usr/local/bin:/usr/bin:/bin"
+ExecStart=/path/to/venv/bin/python data_collector_orchestrator.py --config collector_config.json
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

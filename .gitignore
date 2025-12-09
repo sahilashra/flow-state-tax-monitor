@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Environment variables (keep examples)
+.env
+!.env.example
+
+# Cache files
+.pytest_cache/
+.hypothesis/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+hrv_cache.json
+
+# Logs
+logs/
+*.log
+
+# IMPORTANT: Include .kiro directory for submission
+# .kiro/
+
+# Documentation that's not needed for submission
+DEMO_VIDEO_GUIDE.md
+UI_ENHANCEMENTS.md
+UI_PREVIEW.md

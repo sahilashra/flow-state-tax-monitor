@@ -1,0 +1,27 @@
+{
+  "backend_url": "http://localhost:8000",
+  "send_interval": 5,
+  "collectors": {
+    "hrv": {
+      "enabled": true,
+      "source": "simulated",
+      "sources": ["simulated"],
+      "interval": 60,
+      "config_file": "hrv_config.json"
+    },
+    "notifications": {
+      "enabled": true,
+      "interval": 5,
+      "simulate": true,
+      "filter_system": false,
+      "filter_app": false
+    },
+    "noise": {
+      "enabled": true,
+      "interval": 5,
+      "device_index": null
+    }
+  },
+  "graceful_degradation": true,
+  "log_level": "INFO"
+}
