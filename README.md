@@ -9,7 +9,9 @@ A real-time monitoring system that measures how notifications, stress, and envir
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-![Flow State Tax Monitor Dashboard](https://via.placeholder.com/800x400/1a1a1a/646cff?text=Flow+State+Tax+Monitor+Dashboard)
+![Demo](https://drive.google.com/file/d/1YXT0bkSR4WA_Rr5fhUo6jOiIJzQroFc7/view?usp=sharing)
+<img width="952" height="1179" alt="image" src="https://github.com/user-attachments/assets/8dc81445-0062-43e0-ab12-e03f76d5fc79" />
+
 
 ---
 
